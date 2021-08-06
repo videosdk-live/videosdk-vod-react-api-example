@@ -1,6 +1,6 @@
 # Video SDK video on demand react api example
 
-This code sample demonstrates a [Video On Demand API](https://docs.videosdk.live/docs/overview/video-on-demand/introduction) using react js.
+This code sample demonstrates a [Video SDK Video On Demand API](https://docs.videosdk.live/docs/overview/video-on-demand/introduction) using react js.
 
 - Built for serverless video on demand experience.
 - Convert video from 240p to 4k.
