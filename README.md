@@ -19,9 +19,9 @@ This code sample demonstrates a [Video On Demand API](https://docs.videosdk.live
 - [x] Support multiple file and compression formats
 - [x] Generate HD thumbnail images from video files.
 - [x] Get notified when encoding is finished.
-- [] protected video streaming
-- [] 360 video support
-- [] Embeded video players
+- [ ] protected video streaming
+- [ ] 360 video support
+- [ ] Embeded video players
 
 ## Device support
 
