@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Video SDK video on demand react api example
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This code sample demonstrates a [Video On Demand API](https://docs.videosdk.live/docs/overview/video-on-demand/introduction) using react js.
 
-## Available Scripts
+- Built for serverless video on demand experience.
+- Convert video from 240p to 4k.
+- 98% device support.
+- Low latecncy across the globe.
+- Built for scale
+- Adaptive video streaming
 
-In the project directory, you can run:
+![video-on-demand.jpg](./public/video-on-demand.jpg)
 
-### `yarn start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Upload large video files
+- [x] Get video metadata in milliseconds.
+- [x] Instant video encoding from 240p to 4k
+- [x] Support multiple file and compression formats
+- [x] Generate HD thumbnail images from video files.
+- [x] Get notified when encoding is finished.
+- [] protected video streaming
+- [] 360 video support
+- [] Embeded video players
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Device support
 
-### `yarn test`
+Visit our official [documentation](http://localhost:3000/docs/overview/video-on-demand/introduction) for more information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `yarn build`
+You must have the following installed:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node JS
+- NPM
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Running the Authentication server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow [videosdk-rtc-nodejs-sdk-example](https://github.com/videosdk-live/videosdk-rtc-nodejs-sdk-example) to run authentication server.
 
-### `yarn eject`
+## Running the app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the app, first install the dependencies and then run the server.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ npm install
+$ npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For more information, visit [official documentation](http://localhost:3000/docs/overview/video-on-demand/introduction)
