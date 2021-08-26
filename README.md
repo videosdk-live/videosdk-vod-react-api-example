@@ -50,7 +50,7 @@ You must have the following installed:
 4. Update the api server url in the `.env` file that points to the authentication server.
 
    ```
-   REACT_APP_API_ENDPOINT="http://localhost:9000"
+   REACT_APP_SERVER_API="http://localhost:9000"
    ```
 
 5. Install NPM packages
