@@ -65,4 +65,4 @@ You must have the following installed:
    $ npm run start
    ```
 
-For more information, visit [official documentation](https://docs.videosdk.live/docs/overview/video-on-demand/introduction)
+For more information, visit [official documentation](https://docs.videosdk.live/docs/video-on-demand/intro)
