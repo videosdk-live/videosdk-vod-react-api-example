@@ -2,8 +2,8 @@ import React, { useRef, useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const BASE_URL = "http://192.168.0.89:8080";
-  const API_URL = "https://api.zujonow.com/";
+  const BASE_URL = process.env.REACT_APP_SERVER_API;
+  const API_URL = process.env.REACT_APP_VIDEOSDK_API;
 
   const [selectedFile, setSelectedFile] = useState("");
   const [token, settoken] = useState("");
@@ -34,7 +34,7 @@ function App() {
 
   const fetchStorageAPI = async (token) => {
     try {
-      const response = await fetch(`${API_URL}v1/files`, {
+      const response = await fetch(`${API_URL}/v1/files`, {
         method: "POST",
         headers: {
           Authorization: token,
@@ -83,7 +83,7 @@ function App() {
   };
 
   const onEncode = () => {
-    const url = `${API_URL}v1/encoder/jobs`;
+    const url = `${API_URL}/v1/encoder/jobs`;
     var options = {
       method: "POST",
       headers: {
