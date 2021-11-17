@@ -9,7 +9,6 @@ This code sample demonstrates [Video SDK Video On Demand API](https://docs.video
 - Built for scale
 - Adaptive video streaming
 
-![video-on-demand.jpg](./public/video-on-demand.jpg)
 
 ## Features
 
